@@ -2,9 +2,28 @@ img {
     width: 100px;
 }
 
+
+#container {
+    background-color: aqua;
+    display: inline-block;
+}
+
 #absolute {
     position: absolute;
-    bottom: 30px;
-    left: 50%;
+    bottom: 300px;
+    left: 25%;
+    z-index: -1;
 
+}
+
+#relative {
+    position: relative;
+    top: 70px;
+    left: 60px;
+}
+
+#fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
